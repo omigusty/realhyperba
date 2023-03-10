@@ -144,6 +144,15 @@ footer .col-md-4 {
 }
 
 @media (max-width: 767.98px) {
+  .header-section {
+    padding: 64px 0px;
+  }
+  .header-section .tag {
+    font-size: 36px;
+  }
+  .header-section .desc {
+    font-size: 18px;
+  }
   .header-section .hero-image {
     display: none;
     max-width: 296px;
@@ -157,5 +166,38 @@ footer .col-md-4 {
   .col-md-4 {
     display: flex;
     justify-content: start !important;
+  }
+  .first-section {
+    padding: 64px 0px;
+  }
+  .first-section .tag {
+    font-size: 26px;
+    margin-top: 24px;
+  }
+  .first-section .desc {
+    font-size: 16px;
+  }
+  .second-section {
+    padding: 64px 0px;
+  }
+  .second-section .tag {
+    font-size: 26px;
+    margin-top: 24px;
+  }
+  .second-section .desc {
+    font-size: 16px;
+  }
+  .cta-section {
+    padding: 64px 0px;
+  }
+  .cta-section .tag {
+    font-size: 26px;
+    margin-top: 24px;
+  }
+  .cta-section .desc {
+    font-size: 16px;
+  }
+  .cta-section .text-cta {
+    font-size: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
