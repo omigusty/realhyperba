@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #1e1931;
+}
+.navbar .nav-link {
+  color: #dddddd;
+  font-size: 16px;
+  font-weight: 400;
+}
+.navbar .active {
+  color: white !important;
+  font-weight: 500;
+}
+
+.header-section {
+  background-color: #1e1931;
+}
+.header-section .tag {
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+.header-section .desc {
+  color: #dddddd;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 52px;
+}
+.header-section .button-header {
+  font-weight: 500;
+  font-size: 18px;
+  background: linear-gradient(270deg, #3442d9 12.87%, #548fe8 84.93%);
+  border: none;
+  padding: 12px 22px;
+}
+
+.first-section .tag {
+  color: #1e1931;
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+.first-section .desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 0px;
+}
+
+.second-section .tag {
+  color: #1e1931;
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+.second-section .desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 0px;
+}
+
+.cta-section .tag {
+  color: #1e1931;
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+.cta-section .desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 0px;
+  max-width: 606px;
+}
+.cta-section .text-cta {
+  font-weight: 700;
+  font-size: 28px;
+  color: #1e1931;
+}
+.cta-section .btn-join {
+  font-weight: 500;
+  font-size: 18px;
+  background: linear-gradient(270deg, #3442d9 12.87%, #548fe8 84.93%);
+  border: none;
+  padding: 12px 22px;
+}
+
+footer {
+  background-color: #1e1931;
+  margin-top: 86px;
+}
+footer .about {
+  font-weight: 400;
+  font-size: 16px;
+  color: #dddddd;
+  max-width: 360px;
+}
+footer .explore p {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+footer .explore a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #dddddd;
+  text-decoration: none;
+}
+footer .social-media p {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+footer .social-media a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #dddddd;
+  text-decoration: none;
+}
+footer .bottom-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #dddddd;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767.98px) {
+  .hero-image {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */
