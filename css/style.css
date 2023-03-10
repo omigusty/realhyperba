@@ -7,6 +7,9 @@
 .navbar {
   background-color: #1e1931;
 }
+.navbar .navbar-toggler {
+  background-color: #323846;
+}
 .navbar .nav-link {
   color: #dddddd;
   font-size: 16px;
