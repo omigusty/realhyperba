@@ -40,6 +40,10 @@
   padding: 12px 22px;
 }
 
+.img-section {
+  max-width: 476px;
+}
+
 .first-section .tag {
   color: #1e1931;
   font-weight: 700;
@@ -100,7 +104,6 @@ footer .about {
   font-weight: 400;
   font-size: 16px;
   color: #dddddd;
-  max-width: 360px;
 }
 footer .explore p {
   font-weight: 500;
@@ -132,9 +135,24 @@ footer .bottom-text {
   color: #dddddd;
   margin-bottom: 0px;
 }
+footer .col-md-4 {
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 767.98px) {
-  .hero-image {
-    visibility: hidden;
+  .header-section .hero-image {
+    display: none;
+    max-width: 296px;
+  }
+  .img-section {
+    max-width: 296px;
+  }
+  .img-cta {
+    max-width: 296px;
+  }
+  .col-md-4 {
+    display: flex;
+    justify-content: start !important;
   }
 }/*# sourceMappingURL=style.css.map */
